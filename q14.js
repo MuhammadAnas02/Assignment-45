@@ -1,0 +1,11 @@
+var guestarrs = ["Moiz", "Usama", "Slaman"];
+var messages1 = "You are not  invited in Dinner";
+console.log(guestarrs);
+console.log(guestarrs[0], +"" + messages1);
+var deleteElements = guestarrs.splice(0, 1, "Ahmed");
+console.log("Dear ".concat(guestarrs, ", i found a bigger table"));
+var newarr = "Moiz";
+guestarrs.unshift(newarr);
+console.log(guestarrs);
+var deleteElementes = guestarrs.splice(2, 1, "Ahad");
+console.log(guestarrs);

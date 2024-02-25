@@ -1,0 +1,6 @@
+let people : string[] = ["Anas","Uzair","Ahmed","Usama"];
+let message : string = "Do you learn python";
+console.log(people[0] +" " + message);
+console.log(people[1] +" " + message);
+console.log(people[2] +" " + message);
+console.log(people[3] +" " + message);
